@@ -1,0 +1,25 @@
+### Criar um produto
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Notebook",
+  "price": 4500.00
+}
+
+###
+
+### Criar outro produto
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Mouse",
+  "price": 99.90
+}
+
+###
+
+### Listar todos os produtos
+GET http://localhost:8080/products
+Accept: application/json
